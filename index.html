@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+  <!--The ng-app directive tells AngularJS that this is the root element of the AngularJS application. All AngularJS applications must have a root element.-->
+  <div ng-app="newspaper" class="container">
+    <div class="row-topper">
+      <!--The span tag is used to grouping of inline-elements. The span tag does not make any visual change by itself. Span is very similar to the div tag, but div is a block-level tag and span is an inline tag.-->
+      <span class="pull-left"><a>Login</a></span>
+      <span class="pull-right"><a>Subscribe</a></span>
+    </div>
+
+    <div class="row-header" ng-controller="HeaderController">
+      <div class="head">National Geographics</div>
+      <div class="sub-head">
+        <div class="col-sm-4 1">Vol. MXXI . . . . Issue NO.4533</div>
+        <div class="col-sm-4 c">Thursday, July 23, 2020</div>
+        <div class="col-sm-4 r">$6.50 / Month</div>
+      </div>
+      <div class="row">
+        <div class="big-bold">| ANIMALS |<br><br>Beluga Whale Sighted Off San Diego<br>Coast Mystifies Scientists</div>
+      </div>
+      <div class="row">
+        <div class="articles"><b>IT WAS A</b> - balmy Friday morning in June when Domenic Biagini, whale-watching tour captain and wildlife photographer, steered his 25-foot boat out of San Diego's Mission Bay with six clients on board. The plan was to find some whales—perhaps a migrating blue whale—so he radioed Lisa LaPointe, another tour captain, to see if she’d seen any that day.
+          <p>“Dom, we just saw a pearly white, 15-foot animal that didn’t have a dorsal fin,” he recalls her saying over the radio. “This is the pearliest white you can imagine.” It definitely wasn’t a blue whale. Or a humpback or an orca, or any of the other species he usually sees while out on a whale-watching trip. What she was describing sounded like a beluga, but those aren't supposed to be found anywhere near California waters.
+            An hour later, LaPointe radioed Biagini again, insisting that what she had seen really was a beluga. “Nobody's going to believe us if we don't have undeniable proof,” Lapointe told Biagini, urging him to help document what she saw. He navigated to her location so he could use his drone to film the animal.</p>
+          <p>Biagini searched for 45 minutes before the whale surfaced just 200 yards off his bow. “Undeniably, unmistakably, a beluga whale popped up in front of me,” he says. "It was so bizarre, that moment was so astonishing" that he immediately switched into “citizen scientist” mode, his hands shaking as he piloted his drone to document the surprise visitor. Beluga whales typically restrict themselves to the Arctic and sub-Arctic waters off the coasts of Canada, Greenland, Russia, Scandinavia, and Alaska. They’re also highly social animals who often swim in pods. But the beluga that Biagini filmed on June 26 was some 2,500 miles from the nearest known beluga population, in Alaska, and it was all alone. It’s the farthest south this species has ever been officially recorded. Questions about where it came from, and why, have left scientists scratching their heads...</p>
+        </div>
+      </div>
+      <div class="row bottom">
+        <div>Published by NATIONAL GEOGRAPHINCS Inc.</div>
+        <div>2020 © NAT Geo.</a>
+        </div>
+      </div>
+    </div>
