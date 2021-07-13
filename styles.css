@@ -1,0 +1,103 @@
+body,
+html {
+  font-family: "Quattrocento" !important;
+  color: black !important;
+}
+
+body {
+  background: lightgrey;
+}
+
+a {
+  color: black;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+a:hover {
+  @extend a;
+  color: #777;
+}
+
+a:active {
+  @extend a;
+  color: #000;
+  text-decoration: none;
+}
+
+.topper {
+  padding: 24px 0 0;
+  font-size: 1.25em;
+}
+
+.head {
+  text-align: center;
+  font-size: 3.5em;
+  border-bottom: 3px solid black;
+  font-weight: 800;
+  margin: 12px 0;
+  padding: 0 0 18px;
+}
+
+.sub-head {
+  border-bottom: 1px solid black;
+  padding: 0 0 9px;
+  font-size: 0.9em;
+  height: 24px;
+}
+
+.l {
+  @extend .sub-head;
+  text-align: left;
+}
+
+.c {
+  @extend .sub-head;
+  text-align: center;
+}
+
+.r {
+  @extend .sub-head;
+  text-align: right;
+}
+
+.big-bold {
+  font-size: 4em;
+  font-weight: 800;
+  line-height: 1em;
+  text-align: center;
+  padding: 24px 0;
+}
+
+.articles {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+  list-style-position: inside;
+  list-style-type: disc;
+  font-size: 1.25em;
+  line-height: 1.75em;
+  padding: 0 0 24px;
+  text-indent: 24px;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+.big-first {
+  font-size: 3em;
+  font-weight: 800;
+  padding-right: 6px;
+  line-height: 1em;
+  display: inline;
+  position: relative;
+}
+
+.bottom {
+  border-top: 1px solid black;
+  padding: 12px 0 12px;
+  font-size: 0.9em;
+  text-align: center;
+}
